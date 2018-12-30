@@ -42,8 +42,16 @@ var showFullName = function(){
      //becouse scope of the redion is only if conditions where variable resides
      //console.log(region);
 }
-console.log()
+
 showFullName();
+/*
+let is block scoped
+
+A block is chunk of code bounded by {}.
+A block lives in curly braces. Anything within curly braces is a block.
+So a variable declared in a block with the let is only available for
+ use within that block. Let me explain this with an example
+*/
 /*
    important thing about const is if you assign const to array or object
    then you can not create again but you can edit object or that array
